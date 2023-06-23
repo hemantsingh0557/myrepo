@@ -1,0 +1,265 @@
+(1.)  pwd ==> tell the location
+
+(2.)  cd ==> change directory
+
+(3.) cd ..  or cd.. ==> command to navigate to the parent directory 
+                        here after writing `cd` a space is not required i.e ==> cd .. 
+                        but it also support the without space i.e ==> cd..
+
+(4.) cd .   ==>  this command is used to refer to the current directory
+                 here space is required i.e ==> cd .   not cd. 
+
+(5.)  ls ==> list the file
+
+(6.)  ls -al ==>  this all the folders and hidden files(like .git file )
+
+
+(7.) git init  ==>  this will change the normal folder in a git repositary
+
+                 git  config --global user.name "hemantsingh0557"
+
+                 git  config --global user.email "hemantsingh0557@gmail.com"
+
+                 git  config --list 
+
+
+(8.)  git status  ==>  tell Modified files , Staged files ,  Untracked files , Branch informations etc 
+
+
+(9.) git clone  ==>   command is used to create a copy of a remote Git repository on your local machine
+
+syntax ==>   git clone  `link of repository , which we want to clone`  `it is optional here we can give the new name of the repository which we want to clone or not` 
+
+
+
+(10.) git diff `filename`  ==>  command is used to show the differences between different states of a Git repository. It compares changes between commits, between the working directory.
+
+it shows the difference whihc is change in the file 
+
+
+
+
+(11.)  git log ==>  command is used to view the commit history in a Git repository.
+
+
+      git log -n  ==> here n is any number(1,2,3,4,5,...)
+                    it will show the latest n commits or last n commits
+
+
+for exit from the git log  press `` Q  ``
+
+
+
+(12.) git log -p ==>  command is used to view the commit history along with the changes made in each commit. 
+
+
+
+(13.)  git log --oneline ==>  it shows each commit as a single line, providing a concise overview of the commit history.
+
+
+(14.) git log --stat   ==>  It shows the file name in which change is made . it provides a summary of the modifications for each commit, including the number of files changed, the number of lines added or removed, and a list of the files modified.
+
+
+(15.) git show `commit id ` ==>  it shows the  change in a particular commit 
+                               it will display the commit details including the commit message, author, date, and the actual content changes made in that commit.
+
+
+
+(16.)  mkdir ==> make a new folder
+
+
+
+
+(17.) git add  ==>  it will add file to track
+
+         if new file  => add file to track
+         if old file  => staging index
+
+  synatx  ==>  git add `filename`
+
+
+
+(18.)  git add .   ==>  it is not recommened but it will add all new file to the track which is created or all old file to staging which is modified
+
+
+
+
+(19.)  git commit -m  " message "  ==>   here m mean message here we add a message before each commit
+
+      synatx  ==>  git commit -m "any thing what we want" 
+
+
+// // //   git commit -am "message"  ==> using this we can directly add and commit the change
+
+
+
+(20.)  git restore `filename`  ==>  if by mistake or intentionally we change anything in the file but we 
+                                  don't want change so we can restore the file to just previous commit
+
+
+
+
+(21.)  git branch ==>  tells how many branches are present 
+
+
+(22.) git branch `branchName`  ==> it will make a new branch with name branchName
+
+
+
+
+(23.)  git checkout `branchName` ==> using this we can switch from one branch to other branch
+
+
+(24.)  git checkout -b `branchName`  ==> this will make a new branch with name branchName and
+                                        automatically switch to the newly maked branch  
+
+
+(25.) git merge `branchName`  ==> it will merge the ither branch to the master branch 
+
+
+(26.)  git branch -d  `branchName`   ==>   it will delete the brachName branch  
+
+
+(27.) git tag -a  `write somethin as a tag `   commit-id  -m  `any message`    ==>   for tagging a specific commit 
+
+
+(28.)  git tag -d  `write an already exits tag of any commit `  ==>  it wil delete the tag of commit 
+
+
+
+
+(29.)   git pull   ==>  command used in Git to fetch and integrate changes from a remote repository into your local repository.
+
+
+
+(30.)  git stash   ==>   command is used to save changes that you have made in your working directory but don't want to commit yet. It allows you to temporarily store your modifications, revert your working directory to a clean state, and switch to a different branch or perform other operations. Later, you can apply the stashed changes back to your working directory.
+
+
+
+(31.)  git stash apply  ==>   command is used to apply the most recent stash to your working directory without removing it from the stash list.
+
+
+
+(32.)  git revert  ` commit_id `   ==>   command in Git is used to create a new commit that undoes the changes made in a previous commit. It is a safe way to revert changes without rewriting the commit history.
+
+
+(33.)  git reset --soft  `commit_id ` ==>  command is used to move the branch pointer to a specific commit while preserving the changes from the commits after it as uncommitted changes in the working directory and staging area.
+
+
+
+(34.)   git reset --mixed  `commit_id ` ==>    command is used to move the branch pointer to a specific commit while discarding the changes from the commits after it.
+
+
+
+(35.)   git reset --hard  `commit_id ` ==>   command is used to move the branch pointer to a specific commit while discarding the changes from the commits after it
+
+
+(36.)  git commit --amend  ==>  command is used to modify the most recent commit in Git. It allows you to make changes to the commit message or add changes to the commit that you forgot to include.
+
+
+
+
+
+
+
+
+
+
+
+
+(37.)  git  config --global user.name "hemantsingh0557"
+
+(38.)  git  config --global user.email "hemantsingh0557@gmail.com"
+
+(39.)  git config --list 
+
+(40.)  git push -u origin master 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
