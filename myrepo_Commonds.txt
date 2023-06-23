@@ -265,3 +265,5 @@ for exit from the git log  press `` Q  ``
 
 
 
+
+
